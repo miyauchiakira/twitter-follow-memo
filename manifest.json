@@ -1,0 +1,12 @@
+{
+	"name": "Twitter Follow Memo",
+	"version": "1.0.0",
+	"manifest_version": 2,
+	"description": "Twitterのフォロー理由メモ欄。時間が経つと「なんでフォローしたんだっけ・・・？」を忘れてしまうので、フォロー理由をメモしよう。",
+	"author": "Miyauchi Akira",
+	"background": {
+		"scripts": ["js/background.js"],
+		"persistent": false
+	},
+	"permissions": ["tabs", "https://twitter.com/*"],
+}
