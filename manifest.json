@@ -8,5 +8,5 @@
 		"scripts": ["js/background.js"],
 		"persistent": false
 	},
-	"permissions": ["tabs", "https://twitter.com/*"],
+	"permissions": ["tabs", "https://twitter.com/*"]
 }
